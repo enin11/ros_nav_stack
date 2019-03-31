@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/marc/projects/ros_nav_stack/devel -DCMAKE_INSTALL_PREFIX=/home/marc/projects/ros_nav_stack/install -G Unix Makefiles

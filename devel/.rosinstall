@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/marc/projects/ros_nav_stack/devel/setup.sh
