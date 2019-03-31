@@ -1,0 +1,43 @@
+<robot
+  name="URDF_Gold_Digger">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.028041 0.13627 0.10831"
+        rpy="0 0 0" />
+      <mass
+        value="31.596" />
+      <inertia
+        ixx="2.0542"
+        ixy="-0.27633"
+        ixz="-0.021683"
+        iyy="4.597"
+        iyz="-0.0012579"
+        izz="4.1482" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://URDF_Gold_Digger/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://URDF_Gold_Digger/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>
